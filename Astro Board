@@ -1,0 +1,461 @@
+
+<!DOCTYPE HTML>
+
+<html>
+<head>
+
+       <meta charset="utf-8">
+
+
+<style>
+
+.droptarget { 
+  width: 200px; 
+  height: 200px;
+  margin:10px;
+  background-color:block;
+  position: absolute;
+  border: 4px solid white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  
+}
+.droptarget3 { 
+  width: 600px; 
+  height: 870px;
+  margin:10px;
+  background-color:block;
+  position: absolute;
+  border: 4px solid white;
+  
+}
+
+.droptarget5 { 
+  width: 150px; 
+  height: 850px;
+  margin:10px;
+  background-color:block;
+  position: absolute;
+  border: 4px solid rgb(255, 255, 255);
+  
+}
+
+.drop{
+    position:absolute;
+    left:1420px;
+    background-color:block;
+}
+
+.dr{
+    padding: 4px 4px;
+    color:red;
+    font-weight:bold;
+    font-size:25px;
+}
+
+.drop1{
+    position:absolute;
+    left:80px;
+    background-color:block;
+}
+
+.dr1{
+    padding: 4px 4px;
+    color:white;
+    font-weight:bold;
+    font-size:25px;
+}
+
+.drop2{
+    position:absolute;
+    left:1300px;
+    background-color:block;
+}
+
+.dr2{
+    padding: 4px 4px;
+    color:lime;
+    font-weight:bold;
+    font-size:25px;
+}
+
+.drop4{
+    position:absolute;
+    left:1600px;
+    background-color:block;
+}
+
+.dr4{
+    padding: 4px 4px;
+    color:white;
+    font-weight:bold;
+    font-size:25px;
+}
+
+.dr55{
+    padding: 4px 4px;
+    color:white;
+    font-weight:bold;
+    font-size:30px;
+}
+.dr56{
+    padding: 4px 4px;
+    color:rgb(32, 231, 14);
+    font-weight:bold;
+    font-size:40px;
+    
+}
+.dr57{
+    padding: 4px 4px;
+    color:rgb(209, 194, 245);
+    font-weight:bold;
+    font-size:60px;
+}
+.dr101{
+    padding: 4px 4px;
+    color:rgb(247, 30, 48);
+    font-weight:bold;
+    font-size:25px;
+    font-family:Webdings;
+}
+.drop102{
+    position:absolute;
+    left:1750px;
+    background-color:block;
+}
+
+    
+
+
+
+</style>
+</head>
+
+<body bgcolor="#000000">
+
+<center>
+
+
+
+
+
+
+
+<div style = "left:270px;top:84px;" class="droptarget" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+<div style = "left:471px;top:84px;" class="droptarget" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+<div style = "left:671px;top:84px;" class="droptarget" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+<div style = "left:871px;top:84px;" class="droptarget" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+
+<div style = "left:270px;top:284px;" class="droptarget" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+<div style = "left:871px;top:284px;" class="droptarget" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+<p style = "position:absolute;left:624px;top:425px;font-weigth:bold;color:red;font-size:50px;">RASI</p>
+
+<div style = "left:270px;top:484px;" class="droptarget" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+<div style = "left:871px;top:484px;" class="droptarget" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+
+<div style = "left:270px;top:684px;" class="droptarget" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+<div style = "left:471px;top:684px;" class="droptarget" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+<div style = "left:671px;top:684px;" class="droptarget" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+<div style = "left:871px;top:684px;" class="droptarget" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+
+
+ --><div style = "left:1200px;top:84px;" class="droptarget3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+<div style = "left:50px;top:84px;" class="droptarget5" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+
+<!-- //--------------------------------------------------------------------------------------------------------------------
+
+ -->
+
+<div style="top:150px;" class="drop" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <p class="dr" ondragstart="dragStart(event)" ondrag="dragging(event)" draggable="true" id="dragtarget1">ராகு</p>
+</div>
+
+<div style="top:200px;" class="drop" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <p  class="dr" ondragstart="dragStart(event)" ondrag="dragging(event)" draggable="true" id="dragtarget2">சனி</p>
+</div>
+
+<div style="top:250px;" class="drop" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <p class="dr" ondragstart="dragStart(event)" ondrag="dragging(event)" draggable="true" id="dragtarget3">சந்</p>
+</div>
+
+<div style="top:300px;" class="drop" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <p class="dr" ondragstart="dragStart(event)" ondrag="dragging(event)" draggable="true" id="dragtarget4">சூரி</p>
+</div>
+
+<div style="top:350px;" class="drop" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <p class="dr" ondragstart="dragStart(event)" ondrag="dragging(event)" draggable="true" id="dragtarget5">குரு</p>
+</div>
+
+<div style="top:400px;" class="drop" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <p class="dr" ondragstart="dragStart(event)" ondrag="dragging(event)" draggable="true" id="dragtarget6">சுக்</p>
+</div>
+
+<div style="top:450px;" class="drop" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <p class="dr" ondragstart="dragStart(event)" ondrag="dragging(event)" draggable="true" id="dragtarget7">புத</p>
+</div>
+
+<div style="top:500px;" class="drop" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <p  class="dr" ondragstart="dragStart(event)" ondrag="dragging(event)" draggable="true" id="dragtarget8">செவ்</p>
+</div>
+
+<div style="top:550px;" class="drop" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <p class="dr" ondragstart="dragStart(event)" ondrag="dragging(event)" draggable="true" id="dragtarget9">(வ)<p>
+</div>
+
+
+<div style="top:600px;" class="drop" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <p class="dr" ondragstart="dragStart(event)" ondrag="dragging(event)" draggable="true" id="dragtarget10">(வ)<p>
+</div>
+
+
+<div style="top:650px;" class="drop" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <p class="dr" ondragstart="dragStart(event)" ondrag="dragging(event)" draggable="true" id="dragtarget11">(வ)<p>
+</div>
+
+
+<div style="top:100px;" class="drop" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <p class="dr" ondragstart="dragStart(event)" ondrag="dragging(event)" draggable="true" id="dragtarget12">லக்</p>
+</div>
+
+<div style="top:700px;" class="drop" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <p class="dr" ondragstart="dragStart(event)" ondrag="dragging(event)" draggable="true" id="dragtarget13">கேது</p>
+</div>
+<div style="top:750px;" class="drop" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <p class="dr" ondragstart="dragStart(event)" ondrag="dragging(event)" draggable="true" id="dragtarget14">மாந்</p>
+</div>
+<div style="top:100px;" class="drop102" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <p class="dr101" ondragstart="dragStart(event)" ondrag="dragging(event)" draggable="true" id="dragtarget15">r</p>
+</div>
+<div style="top:150px;" class="drop102" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <p class="dr101" ondragstart="dragStart(event)" ondrag="dragging(event)" draggable="true" id="dragtarget16">r</p>
+</div>
+<div style="top:200px;" class="drop102" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <p class="dr101" ondragstart="dragStart(event)" ondrag="dragging(event)" draggable="true" id="dragtarget17">r</p>
+</div>
+
+<!-- //-------------------------------------------------------------------------------------------------------------------- -->
+
+<div style="top:100px;" class="drop1" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <p class="dr1" ondragstart="dragStart(event)" ondrag="dragging(event)" draggable="true" id="dragtarget111">ராகு</p>
+</div>
+
+<div style="top:150px;" class="drop1" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <p  class="dr1" ondragstart="dragStart(event)" ondrag="dragging(event)" draggable="true" id="dragtarget112">சனி</p>
+</div>
+
+<div style="top:200px;" class="drop1" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <p class="dr1" ondragstart="dragStart(event)" ondrag="dragging(event)" draggable="true" id="dragtarget113">சந்</p>
+</div>
+
+<div style="top:250px;" class="drop1" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <p class="dr1" ondragstart="dragStart(event)" ondrag="dragging(event)" draggable="true" id="dragtarget114">சூரி</p>
+</div>
+
+<div style="top:300px;" class="drop1" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <p class="dr1" ondragstart="dragStart(event)" ondrag="dragging(event)" draggable="true" id="dragtarget115">குரு</p>
+</div>
+
+<div style="top:350px;" class="drop1" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <p class="dr1" ondragstart="dragStart(event)" ondrag="dragging(event)" draggable="true" id="dragtarget116">சுக்</p>
+</div>
+
+<div style="top:400px;" class="drop1" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <p class="dr1" ondragstart="dragStart(event)" ondrag="dragging(event)" draggable="true" id="dragtarget117">புத</p>
+</div>
+
+<div style="top:450px;" class="drop1" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <p  class="dr1" ondragstart="dragStart(event)" ondrag="dragging(event)" draggable="true" id="dragtarget118">செவ்</p>
+</div>
+
+<div style="top:500px;" class="drop1" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <p class="dr1" ondragstart="dragStart(event)" ondrag="dragging(event)" draggable="true" id="dragtarget119">(வ)<p>
+</div>
+
+
+<div style="top:550px;" class="drop1" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <p class="dr1" ondragstart="dragStart(event)" ondrag="dragging(event)" draggable="true" id="dragtarget101">(வ)<p>
+</div>
+
+
+<div style="top:600px;" class="drop1" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <p class="dr1" ondragstart="dragStart(event)" ondrag="dragging(event)" draggable="true" id="dragtarget1111">(வ)<p>
+</div>
+
+
+<div style="top:650px;" class="drop1" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <p class="dr1" ondragstart="dragStart(event)" ondrag="dragging(event)" draggable="true" id="dragtarget1211">லக்</p>
+</div>
+
+<div style="top:700px;" class="drop1" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <p class="dr1" ondragstart="dragStart(event)" ondrag="dragging(event)" draggable="true" id="dragtarget1311">கேது</p>
+</div>
+<div style="top:750px;" class="drop1" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <p class="dr1" ondragstart="dragStart(event)" ondrag="dragging(event)" draggable="true" id="dragtarget1312">மாந்</p>
+</div>
+<div style="top:480px;" class="drop102" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <p class="dr57" ondragstart="dragStart(event)" ondrag="dragging(event)" draggable="true" id="dragtarget1412">-</p>
+</div>
+
+<!-- //-------------------------------------------------------------------------------------------------------------------- -->
+
+
+<div style="top:100px;" class="drop2" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <p class="dr2" ondragstart="dragStart(event)" ondrag="dragging(event)" draggable="true" id="dragtarget221">ராகு</p>
+</div>
+
+<div style="top:150px;" class="drop2" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <p  class="dr2" ondragstart="dragStart(event)" ondrag="dragging(event)" draggable="true" id="dragtarget222">சனி</p>
+</div>
+
+<div style="top:200px;" class="drop2" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <p class="dr2" ondragstart="dragStart(event)" ondrag="dragging(event)" draggable="true" id="dragtarget322">சந்</p>
+</div>
+
+<div style="top:250px;" class="drop2" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <p class="dr2" ondragstart="dragStart(event)" ondrag="dragging(event)" draggable="true" id="dragtarget422">சூரி</p>
+</div>
+
+<div style="top:300px;" class="drop2" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <p class="dr2" ondragstart="dragStart(event)" ondrag="dragging(event)" draggable="true" id="dragtarget522">குரு</p>
+</div>
+
+<div style="top:350px;" class="drop2" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <p class="dr2" ondragstart="dragStart(event)" ondrag="dragging(event)" draggable="true" id="dragtarget622">சுக்</p>
+</div>
+
+<div style="top:400px;" class="drop2" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <p class="dr2" ondragstart="dragStart(event)" ondrag="dragging(event)" draggable="true" id="dragtarget722">புத</p>
+</div>
+
+<div style="top:450px;" class="drop2" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <p  class="dr2" ondragstart="dragStart(event)" ondrag="dragging(event)" draggable="true" id="dragtarget822">செவ்</p>
+</div>
+
+<div style="top:500px;" class="drop2" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <p class="dr2" ondragstart="dragStart(event)" ondrag="dragging(event)" draggable="true" id="dragtarget1222">லக்</p>
+</div>
+
+
+<div style="top:550px;" class="drop2" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <p class="dr2" ondragstart="dragStart(event)" ondrag="dragging(event)" draggable="true" id="dragtarget1322">கேது</p>
+</div>
+
+<div style="top:600px;" class="drop2" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <p class="dr55" ondragstart="dragStart(event)" ondrag="dragging(event)" draggable="true" id="dragtarget11422">சந்</p>
+</div>
+<div style="top:300px;" class="drop102" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <p class="dr56" ondragstart="dragStart(event)" ondrag="dragging(event)" draggable="true" id="dragtarget1522">+</p>
+</div>
+<div style="top:350px;" class="drop102" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <p class="dr56" ondragstart="dragStart(event)" ondrag="dragging(event)" draggable="true" id="dragtarget1622">+</p>
+</div>
+<div style="top:400px;" class="drop102" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <p class="dr56" ondragstart="dragStart(event)" ondrag="dragging(event)" draggable="true" id="dragtarget1722">+</p>
+</div>
+<div style="top:450px;" class="drop102" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <p class="dr56" ondragstart="dragStart(event)" ondrag="dragging(event)" draggable="true" id="dragtarget1822">+</p>
+</div>
+
+
+<!-- //-----------------------------------------------------------------------------------------------------------------------
+ -->
+
+<div style="top:100px;" class="drop4" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <p class="dr4" ondragstart="dragStart(event)" ondrag="dragging(event)" draggable="true" id="dragtarget2521">1</p>
+</div>
+
+<div style="top:150px;" class="drop4" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <p  class="dr4" ondragstart="dragStart(event)" ondrag="dragging(event)" draggable="true" id="dragtarget2522">2</p>
+</div>
+
+<div style="top:200px;" class="drop4" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <p class="dr4" ondragstart="dragStart(event)" ondrag="dragging(event)" draggable="true" id="dragtarget3522">3</p>
+</div>
+
+<div style="top:250px;" class="drop4" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <p class="dr4" ondragstart="dragStart(event)" ondrag="dragging(event)" draggable="true" id="dragtarget4522">4</p>
+</div>
+
+<div style="top:300px;" class="drop4" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <p class="dr4" ondragstart="dragStart(event)" ondrag="dragging(event)" draggable="true" id="dragtarget5522">5</p>
+</div>
+
+<div style="top:350px;" class="drop4" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <p class="dr4" ondragstart="dragStart(event)" ondrag="dragging(event)" draggable="true" id="dragtarget6522">6</p>
+</div>
+
+<div style="top:400px;" class="drop4" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <p class="dr4" ondragstart="dragStart(event)" ondrag="dragging(event)" draggable="true" id="dragtarget7522">7</p>
+</div>
+
+<div style="top:450px;" class="drop4" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <p  class="dr4" ondragstart="dragStart(event)" ondrag="dragging(event)" draggable="true" id="dragtarget8522">8</p>
+</div>
+
+<div style="top:500px;" class="drop4" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <p class="dr4" ondragstart="dragStart(event)" ondrag="dragging(event)" draggable="true" id="dragtarget15222">9</p>
+</div>
+
+
+<div style="top:550px;" class="drop4" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <p class="dr4" ondragstart="dragStart(event)" ondrag="dragging(event)" draggable="true" id="dragtarget13522">10</p>
+</div>
+
+<div style="top:600px;" class="drop4" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <p class="dr4" ondragstart="dragStart(event)" ondrag="dragging(event)" draggable="true" id="dragtarget135222">11</p>
+</div>
+
+<div style="top:650px;" class="drop4" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <p class="dr4" ondragstart="dragStart(event)" ondrag="dragging(event)" draggable="true" id="dragtarget15322">12</p>
+</div>
+<div style="top:700px;" class="drop4" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <p class="dr4" ondragstart="dragStart(event)" ondrag="dragging(event)" draggable="true" id="dragtarget15322">13</p>
+</div>
+<!-- 
+//------------------------------------------------------------------------------------------------------------------------- -->
+
+
+
+
+
+
+
+
+
+<script>
+function dragStart(event) {
+  event.dataTransfer.setData("Text", event.target.id);
+}
+
+function dragging(event) {
+}
+
+function allowDrop(event) {
+  event.preventDefault();
+}
+
+function drop(event) {
+  event.preventDefault();
+  var data = event.dataTransfer.getData("Text");
+  event.target.append(document.getElementById(data));
+}
+</script>
+</center>
+</body>
+
+</html>
